@@ -64,7 +64,7 @@ function handleError(error) {
 // Function to send data to a service like FormSubmit.co
 async function sendData(data) {
     // !!! IMPORTANT: Replace 'YOUR_EMAIL_HERE' with the municipal corporation's email address.
-    const formSubmitURL = 'https://formsubmit.co/YOUR_EMAIL_HERE';
+    const formSubmitURL = 'https://formsubmit.co/siddududa393@gmail.com';
 
     try {
         const response = await fetch(formSubmitURL, {
@@ -93,3 +93,4 @@ function updateStatus(message, type) {
     statusMessage.textContent = message;
     statusMessage.className = type; // Applies 'success', 'error', or 'info' class
 }
+
